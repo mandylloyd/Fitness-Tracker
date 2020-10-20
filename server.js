@@ -20,7 +20,7 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", {
 });
 
 // still need to create html and api routes !!!!
-app.use(require("/routes"));
+app.use(require("./routes/allRoutes.js"));
 
 
 //listen
