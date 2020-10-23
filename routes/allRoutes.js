@@ -5,10 +5,10 @@ const path = require("path");
 const Workout = require("../schemas/workoutModel");
 
 router.get("/api/workouts", (req, res) => {
-    Workout.findOne()
-    .sort({day: -1})
-    .then((dbWorkOut) => {
-      res.json(dbWorkout)
+    Workout.find()
+    // .sort({day: -1})
+    .then(dbWorkout => {
+      res.json(dbWorkout);
     })
     .catch(err => {
         res.status(400).json(err)
