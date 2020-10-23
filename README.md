@@ -1,3 +1,1 @@
-TODO:
-
-API get routes not working?
+This app allows user to add new workouts and exercises, view their statistics, and continue with previous workouts.
