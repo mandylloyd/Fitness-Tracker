@@ -1,27 +1,27 @@
-#Fitness Tracker
+# Fitness Tracker
 
-#Description
+# Description
 This fitness tracker app allows users to store resistance or cardio exercises, view workout statistics by the week or by individual workout.
 
 This application is deployed on Heroku here: https://fitness-tracker-720.herokuapp.com/
 
-#Table of Contents
+# Table of Contents
 1. Table of Contents
 2. Installation
 3. License
 4. Testing
 5. Questions
 
-#Installation
+# Installation
 Run an npm install before usage.
 
-#License
+# License
 No additional licenses are needed for this application.
 
 
-#Testing
+# Testing
 There is currently no testing set up for this application.
 
 
-#Questions
+# Questions
 mandylloyd720@gmail.com
